@@ -15,5 +15,6 @@ if [[ -n "${user_name}" ]]; then
     fi
 else
     echo "User with '${user_name}' does not exist!"
+    exit 1
 fi
 
